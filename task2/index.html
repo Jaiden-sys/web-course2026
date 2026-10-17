@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CodeLab — вайбкодим на .NET</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="logo" href="#">Code<span>Lab</span></a>
+
+    <button class="burger" type="button" aria-label="Открыть меню">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="menu">
+      <ul>
+        <li><a href="#services">Услуги</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page">
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Надёжные веб-сервисы на .NET</h1>
+        <p>Проектируем и разрабатываем backend. Вайбкодим API и внутренние системы для вашего бизнеса.</p>
+        <a class="btn" href="#contact">Оставить заявку</a>
+      </div>
+      <img class="hero-img" src="https://picsum.photos/900/600" alt="Команда за работой">
+    </section>
+
+    <section class="services" id="services">
+      <h2>Наши услуги</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="card-head">
+            <span class="card-icon">⚙️</span>
+            <h3>Backend-разработка</h3>
+          </div>
+          <p>REST API, бизнес-логика и интеграции казино на ASP.NET Core.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <span class="card-icon">🗄️</span>
+            <h3>Базы данных</h3>
+          </div>
+          <p>Проектирование схем, оптимизация запросов, миграции.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <span class="card-icon">🛠️</span>
+            <h3>Поддержка</h3>
+          </div>
+          <p>Сопровождение и развитие уже работающих систем.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Свяжитесь с нами</h2>
+        <p>Расскажите о задаче, и Claude ответит в течение рабочего дня.</p>
+      </div>
+
+      <form class="form">
+        <label class="field">
+          <span>Имя</span>
+          <input type="text" name="name" placeholder="Ваше имя">
+        </label>
+        <label class="field">
+          <span>Email</span>
+          <input type="email" name="email" placeholder="you@example.com">
+        </label>
+        <label class="field">
+          <span>Сообщение</span>
+          <textarea name="message" placeholder="Опишите задачу"></textarea>
+        </label>
+        <button class="btn" type="button">Отправить</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 CodeLab</p>
+    <ul class="footer-links">
+      <li><a href="mailto:hello@codelab.example">hello@codelab.example</a></li>
+      <li><a href="tel:+375291234567">+375 29 123-45-67</a></li>
+    </ul>
+    <p>Минск</p>
+  </footer>
+
+</body>
+</html>
